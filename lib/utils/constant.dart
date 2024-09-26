@@ -2,14 +2,33 @@ import 'package:flutter/material.dart';
 
 class AppColor {
   static const appMainColor = Color(0xFFFFFFFF);
-  static const appbarColor = Color(0xFF5f6fd2);
+  static const appbarColor = Color(0xFF7e91dc);
   static const tilebgColor = Color(0xFFcbd2f2);
   static const headingColor = Color(0xFF242348);
   static const textColor = Color(0xFF333475);
-  static const background =LinearGradient(begin: Alignment.topRight,end: Alignment.bottomLeft,colors: [
-    Color(0xFF7e91dc),
-    Color(0xFFcbd2f2),
-  ]);
+  static const background = LinearGradient(
+      begin: Alignment.topRight,
+      end: Alignment.bottomLeft,
+      colors: [
+        Color(0xFFcbd2f2),
+        Color(0xFFa8b6e8),
+      ]);
+}
+
+TextStyle heading(double size,Color color) {
+  return TextStyle(
+    fontFamily: 'akronim',
+    fontSize: size,
+    color: color
+  );
+}
+TextStyle text(double size,Color color,{FontWeight weight = FontWeight.w600}) {
+  return TextStyle(
+    fontFamily: 'akaya',
+    fontSize: size,
+    color: color,
+    fontWeight: weight
+  );
 }
 // 'cerulean-blue': {
 //         '50': '#f2f4fc',
