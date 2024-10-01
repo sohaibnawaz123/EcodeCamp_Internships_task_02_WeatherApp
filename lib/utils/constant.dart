@@ -15,20 +15,14 @@ class AppColor {
       ]);
 }
 
-TextStyle heading(double size,Color color) {
-  return TextStyle(
-    fontFamily: 'akronim',
-    fontSize: size,
-    color: color
-  );
+TextStyle heading(double size, Color color) {
+  return TextStyle(fontFamily: 'akronim', fontSize: size, color: color);
 }
-TextStyle text(double size,Color color,{FontWeight weight = FontWeight.w600}) {
+
+TextStyle text(double size, Color color,
+    {FontWeight weight = FontWeight.w600}) {
   return TextStyle(
-    fontFamily: 'akaya',
-    fontSize: size,
-    color: color,
-    fontWeight: weight
-  );
+      fontFamily: 'akaya', fontSize: size, color: color, fontWeight: weight);
 }
 // 'cerulean-blue': {
 //         '50': '#f2f4fc',
@@ -43,4 +37,3 @@ TextStyle text(double size,Color color,{FontWeight weight = FontWeight.w600}) {
 //         '900': '#333475',
 //         '950': '#242348',
 //     },
-    

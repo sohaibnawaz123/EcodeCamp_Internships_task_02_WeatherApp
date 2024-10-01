@@ -38,7 +38,10 @@ class _HeaderWidgetState extends State<HeaderWidget> {
         city,
         style: text(32, AppColor.appMainColor),
       ),
-      subtitle: Text(date,style: text(20, AppColor.textColor),), 
+      subtitle: Text(
+        date,
+        style: text(20, AppColor.textColor),
+      ),
     );
   }
 

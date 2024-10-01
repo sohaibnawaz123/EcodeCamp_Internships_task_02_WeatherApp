@@ -41,6 +41,7 @@ dependencies:
   http: ^1.2.2
   sleek_circular_slider: ^2.0.1
   intl: ^0.19.0
+  flutter_typeahead: ^4.0.0
 
 dev_dependencies:
   flutter_test:
